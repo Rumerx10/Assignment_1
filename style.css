@@ -1,0 +1,109 @@
+body{
+  scroll-behavior: smooth;
+  padding-top: 4rem;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  z-index: 1000;
+}
+.navbar-brand{
+  padding: 0;
+  width: 18rem;
+}
+.w-10{
+  width: 10%;
+}
+
+button{
+  width: 100%;
+}
+button:hover{
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px gray;
+}
+.btn4:hover{
+  width: 12rem
+}
+.btn1{
+  border-radius: 1.5rem 0 0 1.5rem
+}
+.btn2{
+  border-radius: 1.5rem 0 1.5rem 0;
+}
+.btn3{
+  border-radius: 0 1.5rem 0 1.5rem;
+}
+.btn4{
+  transition: width 1s ease-out 0s;
+}
+.btn5{
+  border-radius: 0 1.5rem 1.5rem 0
+}
+
+.btn6:hover{
+  background-color: purple;
+  color: white;
+}
+
+.btn7{
+  border: none;
+  padding: .5rem 1rem;
+  transition: height 3s ease 0s;
+}
+.btn7:hover{
+  height: 5rem;
+}
+
+.btn8{
+  border-radius: 3rem;
+}
+.btn9{
+  border: 2px solid firebrick;
+  text-decoration: none;
+}
+.btn9:hover{
+  color: black;
+  font-weight: bold;
+}
+.btn10{
+  opacity: 0.3;
+}
+.btn10:hover{
+  opacity: 1;
+  font-weight: bold;
+  color: white;
+}
+
+.card{
+  border-radius: 0;
+  box-shadow: 5px 5px 10px gray;
+  padding: 0;
+  cursor: pointer;
+  transition: all 1s;
+}
+.card:hover{
+  box-shadow: 0 5px 10px gray;
+  scale: 1.05;
+}
+.card-text{
+  text-align: justify;
+  color: rgb(80, 77, 77);
+}
+
+th,td{
+  text-align: center;
+  font-weight: 500;
+  padding: 1rem 0 !important;
+}
+
+.dropdown-btn:hover{
+  scale: 1;
+}
+
+.dropdown-menu-2{
+  padding: 0 3.3rem;
+}

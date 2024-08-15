@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap5/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Assignment 1</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+    <div class="container-fluid text-center">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo55.png" alt="logo" class="w-100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#buttons">Buttons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#card">Card</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#table">Table</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#progressbar">Progressbar</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#dropdown">Dropdown</a></li>
+              <li><a class="dropdown-item" href="#pagination">Pagination</a></li>
+              <li><a class="dropdown-item" href="#form">Form</a></li>
+              <li><a class="dropdown-item" href="#list">List</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#buttons">Scroll Top</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container p-5" id="buttons">
+    <h1 class="text-center">Buttons</h1>
+    <div class="row buttons mx-auto my-5 row-cols-3 row-cols-md-5 g-5 d-flex justify-content-center">      
+      <div><button class="btn btn1 btn-success">Button 1</button></div>
+      <div><button class="btn btn2 btn-danger">Button 2</button></div>
+      <div><button class="btn btn3 btn-warning">Button 3</button></div>
+      <div><button class="btn btn4 btn-info">Button 4</button></div>
+      <div><button class="btn btn5 btn-dark">Button 5</button></div>
+      <div><button class="btn btn6 btn-primary">Button 6</button></div>
+      <div><button class="btn7 btn-light">Button 7</button></div>
+      <div><button class="btn btn8 btn-secondary">Button 8</button></div>
+      <div><button class="btn btn9 btn-link">Button 9</button></div>
+      <div><button class="btn btn10 btn-lg btn-outline-dark">Button 10</button></div>
+    </div>
+  </div>
+  <div class="container p-5" id="card">
+    <h1 class="text-center mb-5">Card</h1>
+    <div class="row d-flex justify-content-around g-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
+      <div class="card" style="width:16rem">
+        <img src="./images/1328226.png" alt="card image">
+        <div class="card-body">
+          <h4 class="card-title text-center">Card One</h4>
+          <div class="card-text text-align-jusfity">Some text for the card. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
+        </div>
+      </div>
+      <div class="card" style="width:16rem">
+        <img src="./images/1328226.png" alt="card image">
+        <div class="card-body">
+          <h4 class="card-title text-center">Card Two</h4>
+          <div class="card-text text-align-jusfity">Some text for the card. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
+        </div>
+      </div>
+      <div class="card" style="width:16rem">
+        <img src="./images/1328226.png" alt="card image">
+        <div class="card-body">
+          <h4 class="card-title text-center">Card Three</h4>
+          <div class="card-text text-align-jusfity">Some text for the card. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container py-5" id="table">
+    <h1 class="text-center mb-5">Table</h1>
+    <table class="table">
+      <thead>
+        <tr class="table-dark">
+          <th>Sl</th>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Department</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>18103201</td>
+          <td>Bebe Rexa</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>18103201</td>
+          <td>Md. Kamrul Hasan Bhuiyan</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>18103201</td>
+          <td>Anwar Hossain</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>18103201</td>
+          <td>Naimur Islam</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>18103201</td>
+          <td>Masudur Rahman</td>
+          <td>CSE</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container py-5" id="progressbar">
+    <h1 class="text-center mb-5">Progress Bar</h1>
+    <div class="progress">
+      <div id="scrollProgressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-info" role='progressbar' style="width:70%" aria-valuemin='0' aria-valuemax='100' aria-valuenow='70'></div>
+    </div>
+  </div>
+
+  <div class="container py-5" id="dorpdown">
+    <h1 class="text-center mb-5">Dropdown</h1>
+    <div class="dropdown d-flex justify-content-center">
+      <div class="btn btn-info dropdown-toggle px-5" type="button" id="dorpdown" data-bs-toggle="dropdown" aria-expanded="false">
+        Site Navigator
+      </div>
+      <ul class="dropdown-menu dropdown-menu-dark text-center dropdown-menu-2" aria-labelledby="dorpdown">
+        <li><a class="dropdown-item" href="#buttons">Buttons</a></li>
+        <li><a class="dropdown-item" href="#card">Card</a></li>
+        <li><a class="dropdown-item" href="#table">Table</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#pagination">Pagination</a></li>
+        <li><a class="dropdown-item" href="#form">Form</a></li>
+        <li><a class="dropdown-item" href="#list">List</a></li>
+      </ul>
+    </div>
+    <div style="height: 20vh;"></div>    
+  </div>
+
+
+  <div class="container py-5" id="pagination">
+    <h1 class="text-center mb-5">Pagination</h1>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </h1>
+  </div>
+  <div style="height: 40vh;"></div>
+  <div class="container py-5" id="form">
+    <h1 class="text-center mb-5">Form</h1>
+    <form action="">
+      <div>
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder="Name">
+      </div>
+      <div>
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Email Address">
+      </div>
+      <div>
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" placeholder="Password">
+      </div>
+      <div>
+        <select class="form-select mt-3" aria-label="Default select example">
+          <option selected>Select Division</option>
+          <option value="1">Dhaka</option>
+          <option value="2">Rajshahi</option>
+          <option value="3">Khulna</option>
+        </select>
+      </div>
+    </form>
+  </div>
+
+  <div class="container py-5" id="list">
+    <h1 class="text-center mb-5">List</h1>
+    <ul class="list-group">
+      <div class="list-group-item">List item One</div>
+      <div class="list-group-item">List item Two</div>
+      <div class="list-group-item">List item Three</div>
+      <div class="list-group-item">List item Four</div>
+      <div class="list-group-item">List item Five</div>
+    </ul>
+  </div>
+
+  <script>    
+    function updateProgressBar() {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercent = (scrollTop / docHeight) * 100;
+      const progressBar = document.getElementById('scrollProgressBar');
+      progressBar.style.width = scrollPercent + '%';
+      progressBar.setAttribute('aria-valuenow', scrollPercent.toFixed(2));
+    }
+    window.addEventListener('scroll', updateProgressBar);
+    updateProgressBar();
+  </script>
+  <script src="./bootstrap5/bootstrap.bundle.min.js"></script>
+</body>
+</html>
